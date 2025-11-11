@@ -8,16 +8,16 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      -name: Checkout code
+      - name: Checkout code
         uses: actions/checkout@v4
 
-      -name: set up Python
+      - name: set up Python
         uses: actions/setup-python@v4
 
-      -name: Install dependencies
+      - name: Install dependencies
         run: pip install -r required.txt
 
-      -name: Run tests
+      - name: Run tests
         run: pytest
 
         
