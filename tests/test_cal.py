@@ -1,4 +1,4 @@
-from mycode.cal import add,subtract,multiply,divide 
+from mycode.calulator import add,subtract,multiply,divide 
 import pytest
 
 def test_add():
